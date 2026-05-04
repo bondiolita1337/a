@@ -32,4 +32,4 @@ app.get('/get', (req, res) => {
   res.json(p);
 });
 
-app.listen(process.env.PORT || 3000, () => console.log("🔥 Live"));
+app.listen(process.env.PORT || 3000, () => console.log("Live"));
